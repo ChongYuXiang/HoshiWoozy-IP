@@ -12,7 +12,7 @@ nav {
     border-radius: 25px;
     display: flex;
     justify-content: space-around;
-    justify-self: center;
+    flex-shrink: 80%;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 15%;
@@ -76,8 +76,7 @@ section {
 }
 
 .title {
-    display: flex;
-    justify-content: center;
+    text-align: center;
     font-family: 'Itim', cursive;
     color: #FFFEEA;
     background-color: #997245;
@@ -86,16 +85,30 @@ section {
     padding-bottom: 10px;
     margin-left: 35%;
     margin-right: 35%;
+    margin-bottom: 2%;
+}
+
+.updateSection {
+    font-family: 'Itim', cursive;
+    text-align: center;
+    h1{
+        color: green;
+        font-size: 180%;
+    }
 }
 
 footer {
     background-color: #997245;
-    padding: 2%;
+    padding: 1%;
+    font-family: 'Itim', cursive;
+    color: #FFFEEA;
+    font-size: 80%;
+    text-align: center;
 }
 
 @media (max-width: 500px){
     .flexItem{
-        flex: 1 90%;
+        flex: 1 150%;
         flex-grow: inherit;
     }
 }
