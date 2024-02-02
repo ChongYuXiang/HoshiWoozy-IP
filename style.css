@@ -29,7 +29,7 @@ button {
     font-family: 'Itim', cursive;
     font-size: 100%;
     color: #FFFEEA;
-    background-color: transparent;
+    background-color: #997245;
     border-radius: 20px;
     padding-left: 10%;
     padding-right: 10%;
@@ -38,6 +38,13 @@ button {
 }
 button:hover, #download:hover {
     background-color: #70502a;
+}
+#buyButton {
+    margin-left: 25%;
+    margin-right: 25%;
+}
+#buyButton:hover {
+    background-color: rgb(229, 196, 12);
 }
 
 section {
@@ -116,12 +123,18 @@ section {
     }
 }
 
+#shopContainer {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 8%;
+}
+
 footer {
     background-color: #997245;
     padding: 1%;
     font-family: 'Itim', cursive;
     color: #FFFEEA;
-    font-size: 80%;
+    font-size: 60%;
     text-align: center;
 }
 
