@@ -49,6 +49,7 @@ button:hover, #download:hover {
 
 section {
     padding-top: 5.5%;
+    padding-bottom: 3%;
 }
 
 #charaScroll {
@@ -56,7 +57,7 @@ section {
 }
 
 #info {
-    padding-top: 5%;
+    padding-top: 10%;
 }
 
 .flexContainer {
@@ -133,11 +134,17 @@ section {
     color: rgb(229, 196, 12);
 }
 
-#moreSoon {
+#shopFooter {
     font-family: 'Itim', cursive;
     color: #997245;
     font-size: 200%;
     margin-top: 5%;
+}
+#shopHeader {
+    font-family: 'Itim', cursive;
+    color: #997245;
+    font-size: 200%;
+    margin-bottom: 5%;
 }
 
 footer {
