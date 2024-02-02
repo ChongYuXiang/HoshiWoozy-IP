@@ -129,6 +129,17 @@ section {
     margin-bottom: 8%;
 }
 
+.price {
+    color: rgb(229, 196, 12);
+}
+
+#moreSoon {
+    font-family: 'Itim', cursive;
+    color: #997245;
+    font-size: 200%;
+    margin-top: 5%;
+}
+
 footer {
     background-color: #997245;
     padding: 1%;
