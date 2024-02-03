@@ -39,11 +39,11 @@ button {
 button:hover, #download:hover {
     background-color: #70502a;
 }
-#buyButton {
+.buyButton {
     margin-left: 25%;
     margin-right: 25%;
 }
-#buyButton:hover {
+.buyButton:hover {
     background-color: rgb(229, 196, 12);
 }
 
@@ -139,14 +139,15 @@ section {
     color: #997245;
     font-size: 200%;
     text-align: center;
-    margin-bottom: 5%;
+    margin-bottom: 2%;
 }
 #shopFooter {
     font-family: 'Itim', cursive;
     color: #997245;
     font-size: 200%;
     text-align: center;
-    margin-bottom: 5%;
+    margin-top: 1%;
+    margin-bottom: 2%;
 }
 
 #accountProfile {
@@ -157,11 +158,18 @@ section {
     text-align: center;
     margin-left: 35%;
     margin-right: 35%;
+    margin-bottom: 5%;
     padding: 1%;
 }
 #avatar {
     width: 100px;
     border-radius: 18em;
+}
+#email {
+    font-size: 90%;
+}
+#points {
+    color: rgb(229, 196, 12);
 }
 #signIn {
     font-size: 150%;
@@ -170,6 +178,10 @@ section {
     padding-left: 15%;
     padding-right: 15%;
     margin-top: 5%;
+}
+
+.shopItem {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
 footer {
@@ -187,3 +199,57 @@ footer {
         flex-grow: inherit;
     }
 }
+
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* The actual popup (appears on top) */
+  .popup .popuptext {
+    visibility: hidden;
+    width: 160px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+  }
+  
+  /* Popup arrow */
+  .popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+  
+  /* Toggle this class when clicking on the popup container (hide and show the popup) */
+  .popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s
+  }
+  
+  /* Add animation (fade in the popup) */
+  @-webkit-keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+  
+  @keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+  }
