@@ -2,10 +2,12 @@
 <html>
     <head>
         <title>Paws&Laws</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="icon" href="images/Dog.png">
         <link rel="stylesheet" href="style.css" type="text/css">
         <script src="script.js"></script>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     </head>
     <header>
         <nav>
@@ -32,7 +34,9 @@
 
         <section id="characters">
             <h1 class="title">Meet the Characters!</h1>
+
             <div class="flexContainer">
+
                 <div class="flexItem">
                     <img src="images/Cat.png" alt="catImg" width="250px" class="centered zoom">
                 </div>
@@ -41,6 +45,7 @@
                     <h2>Role: The player's character</h2>
                     <h2>You discover your owner laying unconscious on the kitchen floor. A knife and the dog are seen next to the body! What do you think happened?</h2>
                 </div>
+
                 <div class="flexItem">
                     <img src="images/Dog.png" alt="dogImg" width="250px" class="centered zoom">
                 </div>
@@ -49,6 +54,7 @@
                     <h2>Role: The Accused</h2>
                     <h2>Kirby is seen next to the unconscious owner with a knife nearby! He denies allegations that he was the culprit, do you believe him?</h2>
                 </div>
+
                 <div class="flexItem">
                     <img src="images/Bird.png" alt="birdImg" width="250px" class="centered zoom">
                 </div>
@@ -57,6 +63,7 @@
                     <h2>Role: Witness 1</h2>
                     <h2>Flying around the kitchen, Aria saw the owner making a sandwich and Kirby running around, but she did not see what happened when the owner fell.</h2>
                 </div>
+
                 <div class="flexItem">
                     <img src="images/Hamster.png" alt="hamsterImg" width="250px" class="centered zoom">
                 </div>
@@ -65,6 +72,7 @@
                     <h2>Role: Witness 2</h2>
                     <h2>Sitting on the kitchen counter, Chuck saw Kirby viciously running around the kitchen and attacking the owner! Given Chuck's horrible eyesight, can this really be what he saw?</h2>
                 </div>
+
                 <div class="flexItem">
                     <img src="images/Fish.png" alt="fishImg" width="250px" class="centered zoom">
                 </div>
@@ -73,6 +81,7 @@
                     <h2>Role: The Judge</h2>
                     <h2>Stuck in his tank in the living room, Bob has a completely unbiased opinion on this situation! However, he isn't able to convey his thoughts very well...</h2>
                 </div>
+
                 <div class="flexItem">
                     <img src="https://i.redd.it/cyknzos0ptoa1.png" alt="hamsterImg" width="250px" class="centered zoom">
                 </div>
@@ -82,10 +91,12 @@
                     <h2>What happened to the owner!?</h2>
                 </div>
             </div>
+
         </section>
 
         <section id="updates">
             <h1 class="title">Game Updates!</h1>
+
             <div class="updateSection">
                 <h1><u>23/1/24 Game Demo</u></h1>
                 <h2>First Demo of Paws&Laws was released on the app store!</h2><br><br>
@@ -102,12 +113,26 @@
                 <h1><u>2/5/24 Leaderboard</u></h1>
                 <h2>See your ranking in-game with the new leaderboard!</h2>
             </div>
+
         </section>
 
         <section id="shop">
             <h1 class="title">Shop!</h1>
+            <h1 id="shopHeader">Play the game to earn points for the shop!</h1>
+
+            <div id="accountProfile" class="flexContainer">
+                <div class="flexItem">
+                    <img id="avatar" src="https://www.printasia.in/media/personalized/resized/500//r/o/round-wht_1.png" alt="Profile Picture" class="centered">
+                </div>
+                <div class="flexItem">
+                    <h2 id="username">Username</h2>
+                    <h2 id="email">Email</h2>
+                    <h2 id="points">Points</h2>
+                </div>
+                <button id="signIn">Sign In</button>
+            </div>
+
             <div id="shopContainer" class="flexContainer">
-                <h1 id="shopHeader">Play the game to earn points for the shop!</h1>
                 <div class="flexItem">
                     <img src="images/Cat_Food.png" alt="catFood" width="250px" class="centered">
                     <h2><u>TIN TUNA FILLET 100g (CATS)</u></h2>

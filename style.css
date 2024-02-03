@@ -134,17 +134,42 @@ section {
     color: rgb(229, 196, 12);
 }
 
-#shopFooter {
-    font-family: 'Itim', cursive;
-    color: #997245;
-    font-size: 200%;
-    margin-top: 5%;
-}
 #shopHeader {
     font-family: 'Itim', cursive;
     color: #997245;
     font-size: 200%;
+    text-align: center;
     margin-bottom: 5%;
+}
+#shopFooter {
+    font-family: 'Itim', cursive;
+    color: #997245;
+    font-size: 200%;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+#accountProfile {
+    background-color: #997245;
+    border-radius: 25px;
+    font-family: 'Itim', cursive;
+    color: #FFFEEA;
+    text-align: center;
+    margin-left: 35%;
+    margin-right: 35%;
+    padding: 1%;
+}
+#avatar {
+    width: 100px;
+    border-radius: 18em;
+}
+#signIn {
+    font-size: 150%;
+    color: #997245;
+    background-color: #FFFEEA;
+    padding-left: 15%;
+    padding-right: 15%;
+    margin-top: 5%;
 }
 
 footer {
