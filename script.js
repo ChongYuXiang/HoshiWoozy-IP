@@ -45,9 +45,15 @@ window.addEventListener("DOMContentLoaded", () => {
         el.addEventListener('click', function(){
             console.log(points)
             if (points >= 200) {
-                points -= 200;
-                let pointtxt = document.getElementById("points");
-                pointtxt.textContent = points;
+                const afterPoints = points - 200;
+                    if (confirm("Redeem Paws&Laws Shirt for 200 points?\nYou will have " + afterPoints + " points after.")){
+                        points = afterPoints;
+                        let pointtxt = document.getElementById("points");
+                        pointtxt.textContent = points;
+                    }
+                    else {
+                        window.alert("Purchase cancelled.")
+                    }
             }
             else if (points == -1) {
                 window.alert("Please sign in first to purchase items.")
@@ -64,9 +70,15 @@ window.addEventListener("DOMContentLoaded", () => {
         el.addEventListener('click', function(){
             console.log(points)
             if (points >= 200) {
-                points -= 200;
-                let pointtxt = document.getElementById("points");
-                pointtxt.textContent = points;
+                const afterPoints = points - 200;
+                    if (confirm("Redeem Paws&Laws Shirt for 200 points?\nYou will have " + afterPoints + " points after.")){
+                        points = afterPoints;
+                        let pointtxt = document.getElementById("points");
+                        pointtxt.textContent = points;
+                    }
+                    else {
+                        window.alert("Purchase cancelled.")
+                    }
             }
             else if (points == -1) {
                 window.alert("Please sign in first to purchase items.")
@@ -83,9 +95,15 @@ window.addEventListener("DOMContentLoaded", () => {
         el.addEventListener('click', function(){
             console.log(points)
             if (points >= 800) {
-                points -= 800;
-                let pointtxt = document.getElementById("points");
-                pointtxt.textContent = points;
+                const afterPoints = points - 800;
+                    if (confirm("Redeem Paws&Laws Shirt for 800 points?\nYou will have " + afterPoints + " points after.")){
+                        points = afterPoints;
+                        let pointtxt = document.getElementById("points");
+                        pointtxt.textContent = points;
+                    }
+                    else {
+                        window.alert("Purchase cancelled.")
+                    }
             }
             else if (points == -1) {
                 window.alert("Please sign in first to purchase items.")
@@ -102,9 +120,15 @@ window.addEventListener("DOMContentLoaded", () => {
         el.addEventListener('click', function(){
             console.log(points)
             if (points >= 2000) {
-                points -= 2000;
-                let pointtxt = document.getElementById("points");
-                pointtxt.textContent = points;
+                const afterPoints = points - 2000;
+                    if (confirm("Redeem Paws&Laws Shirt for 2000 points?\nYou will have " + afterPoints + " points after.")){
+                        points = afterPoints;
+                        let pointtxt = document.getElementById("points");
+                        pointtxt.textContent = points;
+                    }
+                    else {
+                        window.alert("Purchase cancelled.")
+                    }
             }
             else if (points == -1) {
                 window.alert("Please sign in first to purchase items.")
@@ -121,9 +145,15 @@ window.addEventListener("DOMContentLoaded", () => {
         el.addEventListener('click', function(){
             console.log(points)
             if (points >= 700) {
-                points -= 700;
-                let pointtxt = document.getElementById("points");
-                pointtxt.textContent = points;
+                const afterPoints = points - 700;
+                    if (confirm("Redeem Paws&Laws Shirt for 700 points?\nYou will have " + afterPoints + " points after.")){
+                        points = afterPoints;
+                        let pointtxt = document.getElementById("points");
+                        pointtxt.textContent = points;
+                    }
+                    else {
+                        window.alert("Purchase cancelled.")
+                    }
             }
             else if (points == -1) {
                 window.alert("Please sign in first to purchase items.")
@@ -140,9 +170,15 @@ window.addEventListener("DOMContentLoaded", () => {
         el.addEventListener('click', function(){
             console.log(points)
             if (points >= 2500) {
-                points -= 2500;
-                let pointtxt = document.getElementById("points");
-                pointtxt.textContent = points;
+                const afterPoints = points - 2500;
+                    if (confirm("Redeem Paws&Laws Shirt for 2500 points?\nYou will have " + afterPoints + " points after.")){
+                        points = afterPoints;
+                        let pointtxt = document.getElementById("points");
+                        pointtxt.textContent = points;
+                    }
+                    else {
+                        window.alert("Purchase cancelled.")
+                    }
             }
             else if (points == -1) {
                 window.alert("Please sign in first to purchase items.")
@@ -153,13 +189,4 @@ window.addEventListener("DOMContentLoaded", () => {
         });
     }
 });
-
-
-function myFunction() {
-    var popup = document.getElementById("myPopup");
-    popup.classList.toggle("show");
-    setTimeout(function(){
-        popup.classList.toggle("show");
-    }, 2000);
-  }
 
