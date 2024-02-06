@@ -192,9 +192,28 @@ footer {
     text-align: center;
 }
 
-@media (max-width: 500px){
+@media (max-width: 500px) {
     .flexItem{
         flex: 1 150%;
         flex-grow: inherit;
     }
+}
+
+.downloadPage {
+    overflow: hidden;
+}
+.animation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.loading-text {
+    display: block;
+    font-family: 'Itim', cursive;
+    font-size: 150%;
+    text-align: center;
+    color: #997245;
+    top: -150px;
+    position: relative;
 }
