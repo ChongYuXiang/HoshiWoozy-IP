@@ -32,7 +32,7 @@ window.addEventListener("DOMContentLoaded", () => {
             let emailTxt = document.getElementById("email");
             emailTxt.textContent = data.results[0].email;
             });
-            points = 5000;
+            points = Math.floor((Math.random() * 4500) + 3000);
             let pointtxt = document.getElementById("points");
             pointtxt.textContent = points;
         });
@@ -59,7 +59,7 @@ window.addEventListener("DOMContentLoaded", () => {
                 window.alert("Please sign in first to purchase items.")
             }
             else {
-                window.alert("You do not have enough points to purchase this item.")
+                window.alert("You do not have enough points to purchase this item.\nYou currently have " + points + " points.")
             }
         });
     }
@@ -84,7 +84,7 @@ window.addEventListener("DOMContentLoaded", () => {
                 window.alert("Please sign in first to purchase items.")
             }
             else {
-                window.alert("You do not have enough points to purchase this item.")
+                window.alert("You do not have enough points to purchase this item.\nYou currently have " + points + " points.")
             }
         });
     }
@@ -109,7 +109,7 @@ window.addEventListener("DOMContentLoaded", () => {
                 window.alert("Please sign in first to purchase items.")
             }
             else {
-                window.alert("You do not have enough points to purchase this item.")
+                window.alert("You do not have enough points to purchase this item.\nYou currently have " + points + " points.")
             }
         });
     }
@@ -134,7 +134,7 @@ window.addEventListener("DOMContentLoaded", () => {
                 window.alert("Please sign in first to purchase items.")
             }
             else {
-                window.alert("You do not have enough points to purchase this item.")
+                window.alert("You do not have enough points to purchase this item.\nYou currently have " + points + " points.")
             }
         });
     }
@@ -159,7 +159,7 @@ window.addEventListener("DOMContentLoaded", () => {
                 window.alert("Please sign in first to purchase items.")
             }
             else {
-                window.alert("You do not have enough points to purchase this item.")
+                window.alert("You do not have enough points to purchase this item.\nYou currently have " + points + " points.")
             }
         });
     }
@@ -184,7 +184,7 @@ window.addEventListener("DOMContentLoaded", () => {
                 window.alert("Please sign in first to purchase items.")
             }
             else {
-                window.alert("You do not have enough points to purchase this item.")
+                window.alert("You do not have enough points to purchase this item.\nYou currently have " + points + " points.")
             }
         });
     }
