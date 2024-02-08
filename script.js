@@ -46,7 +46,7 @@ window.addEventListener("DOMContentLoaded", () => {
             console.log(points)
             if (points >= 200) {
                 const afterPoints = points - 200;
-                    if (confirm("Redeem Paws&Laws Shirt for 200 points?\nYou will have " + afterPoints + " points after.")){
+                    if (confirm("Redeem Tin Tuna Fillet for 200 points?\nYou will have " + afterPoints + " points after.")){
                         points = afterPoints;
                         let pointtxt = document.getElementById("points");
                         pointtxt.textContent = points;
@@ -71,7 +71,7 @@ window.addEventListener("DOMContentLoaded", () => {
             console.log(points)
             if (points >= 200) {
                 const afterPoints = points - 200;
-                    if (confirm("Redeem Paws&Laws Shirt for 200 points?\nYou will have " + afterPoints + " points after.")){
+                    if (confirm("Redeem Tin Beef for 200 points?\nYou will have " + afterPoints + " points after.")){
                         points = afterPoints;
                         let pointtxt = document.getElementById("points");
                         pointtxt.textContent = points;
@@ -96,7 +96,7 @@ window.addEventListener("DOMContentLoaded", () => {
             console.log(points)
             if (points >= 800) {
                 const afterPoints = points - 800;
-                    if (confirm("Redeem Paws&Laws Shirt for 800 points?\nYou will have " + afterPoints + " points after.")){
+                    if (confirm("Redeem Aquarium Gravel for 800 points?\nYou will have " + afterPoints + " points after.")){
                         points = afterPoints;
                         let pointtxt = document.getElementById("points");
                         pointtxt.textContent = points;
@@ -121,7 +121,7 @@ window.addEventListener("DOMContentLoaded", () => {
             console.log(points)
             if (points >= 2000) {
                 const afterPoints = points - 2000;
-                    if (confirm("Redeem Paws&Laws Shirt for 2000 points?\nYou will have " + afterPoints + " points after.")){
+                    if (confirm("Redeem Hamster Wheel for 2000 points?\nYou will have " + afterPoints + " points after.")){
                         points = afterPoints;
                         let pointtxt = document.getElementById("points");
                         pointtxt.textContent = points;
@@ -146,7 +146,7 @@ window.addEventListener("DOMContentLoaded", () => {
             console.log(points)
             if (points >= 700) {
                 const afterPoints = points - 700;
-                    if (confirm("Redeem Paws&Laws Shirt for 700 points?\nYou will have " + afterPoints + " points after.")){
+                    if (confirm("Redeem Toy Bouncy Ball for 700 points?\nYou will have " + afterPoints + " points after.")){
                         points = afterPoints;
                         let pointtxt = document.getElementById("points");
                         pointtxt.textContent = points;
